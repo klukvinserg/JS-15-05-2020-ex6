@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex5</title>
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body onclick="clickMouse(event)">
+
+    <div id="main">
+        <div id="myTooltip"><p>Tip top</p>
+            <div id="myTooltipInner"></div>
+        </div>
+        <button id="myButton" onmouseleave="myMouseleave(event)", onmouseenter="myMouseenter(event)">BUTTON</button>
+        <div id="myTooltipButtom"><p>Tip buttom</p>
+            <div id="myTooltipInnerButtom"></div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

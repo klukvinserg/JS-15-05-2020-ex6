@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+#main {
+    position: absolute;
+}
+
+#myButton {
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#myTooltip {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: violet;
+    margin-bottom: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myTooltipInner {
+    width: 15px;
+    height: 15px;
+    background-color: violet;
+    position: absolute;
+    top: 17px;
+    left: 42px;
+    transform: rotate(45deg);
+    z-index: -100;
+
+}
+
+#myTooltipButtom {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: violet;
+    margin-top: 10px;
+    position: absolute;
+    z-index: -10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#myTooltipInnerButtom {
+    width: 15px;
+    height: 15px;
+    background-color: violet;
+    position: absolute;
+    top: -3px;
+    left: 42px;
+    transform: rotate(45deg);
+    z-index: -100;
+}
