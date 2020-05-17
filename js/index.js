@@ -28,7 +28,7 @@ function clickMouse(event) {
 function myMouseenter() {
   let pointTop = event.pageY;
 
-  if (pointTop < 50) {
+  if (pointTop < 65) {
     myTooltipButtom.style.top = 40 + 10 + "px";
   } else {
     myTooltip.style.top = -40 + "px";
